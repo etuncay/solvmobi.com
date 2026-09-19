@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://solvmobi.com/sitemap.xml

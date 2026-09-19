@@ -1,0 +1,21 @@
+{
+  "name": "Solvmobi",
+  "short_name": "Solvmobi",
+  "description": "Gizlilik odaklı mobil uygulamalar",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#041412",
+  "theme_color": "#0b3d3a",
+  "icons": [
+    {
+      "src": "/assets/apple-touch-icon.svg",
+      "sizes": "180x180",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/assets/favicon.svg",
+      "sizes": "64x64",
+      "type": "image/svg+xml"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Ezan Vakti">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a2f2c"/>
+      <stop offset="100%" stop-color="#041412"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f0d089"/>
+      <stop offset="100%" stop-color="#c8942f"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="980" cy="520" r="240" fill="#d4a853" opacity="0.1"/>
+  <text x="80" y="150" fill="#d4a853" font-family="Georgia, serif" font-size="38" letter-spacing="6">SOLVMOBI</text>
+  <text x="80" y="280" fill="#edf7f4" font-family="Georgia, serif" font-size="92">Ezan Vakti</text>
+  <text x="80" y="350" fill="#9ecbc3" font-family="Arial, sans-serif" font-size="34">Offline namaz vakitleri · Ezan · K1ble · 16 dil</text>
+  <circle cx="980" cy="250" r="96" fill="none" stroke="url(#gold)" stroke-width="10"/>
+  <path d="M980 170 L980 330 M884 250 L1076 250" stroke="url(#gold)" stroke-width="8" stroke-linecap="round"/>
+</svg>

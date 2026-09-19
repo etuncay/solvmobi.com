@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Ezan Vakti">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a5f58"/>
+      <stop offset="100%" stop-color="#0a2f2c"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f0d089"/>
+      <stop offset="100%" stop-color="#c8942f"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <circle cx="256" cy="248" r="118" fill="none" stroke="url(#gold)" stroke-width="10"/>
+  <path d="M256 150 L256 346 M150 248 L362 248" stroke="url(#gold)" stroke-width="8" stroke-linecap="round"/>
+  <path d="M256 118 L276 188 L256 168 L236 188 Z" fill="url(#gold)"/>
+  <path d="M196 360 C220 390 292 390 316 360" fill="none" stroke="#9ecbc3" stroke-width="8" stroke-linecap="round"/>
+</svg>
