@@ -36,6 +36,28 @@ Tarayıcıda `http://localhost:8080` açın.
 
 ## Dağıtım
 
+### Ubuntu + nginx (önerilen — kendi sunucu)
+
+Detaylı rehber: [`deploy/README.md`](deploy/README.md)
+
+```bash
+# Sunucuda (ilk kurulum)
+sudo git clone <repo-url> /home/sites/solvmobi.com
+cd /home/sites/solvmobi.com
+sudo bash deploy/ubuntu-setup.sh
+
+# HTTPS
+sudo apt install -y certbot python3-certbot-nginx
+sudo certbot --nginx -d solvmobi.com -d www.solvmobi.com
+
+# Güncelleme
+sudo bash deploy/sync-site.sh
+```
+
+nginx SPA fallback: `deploy/nginx/solvmobi.com.conf`
+
+### Diğer platformlar
+
 - **Vercel:** `vercel.json` SPA rewrite içerir
 - **Netlify:** kök `_redirects` dosyası SPA fallback sağlar
 
